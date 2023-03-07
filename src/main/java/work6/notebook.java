@@ -1,9 +1,6 @@
 package work6;
 
-import java.net.InterfaceAddress;
-import java.util.*;
-
-public class notebooks {
+public class notebook {
     private Integer id;
     private String name;
     private Double price;
@@ -13,7 +10,7 @@ public class notebooks {
     private Integer raMemory;
     private Integer hDskSize;
     private String graphicProcessor;
-    public notebooks(int id, String name, double price, String description, double scrnSize, String color, int raMemory, int hDskSize, String graphicProcessor) {
+    public notebook(int id, String name, double price, String description, double scrnSize, String color, int raMemory, int hDskSize, String graphicProcessor) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -60,6 +57,8 @@ public class notebooks {
     public String getGraphicProcessor() {
         return this.graphicProcessor;
     }
+
+
 }
 
 
