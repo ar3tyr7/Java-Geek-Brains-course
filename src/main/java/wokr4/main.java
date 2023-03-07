@@ -12,7 +12,7 @@ public class main {
         ex1();
     }
 
-    private static void ex1() {
+    public static void ex1() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input somthing: ");
         ArrayList<String> str = new ArrayList<>();
